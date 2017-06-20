@@ -1,0 +1,175 @@
+body {
+  margin: 0px;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+
+/*----Header Start----*/
+header {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+
+.logo {
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nav span a{
+  color: seashell;
+  padding: 10px;
+}
+/*----Header End----*/
+
+
+.container {
+  display: flex;
+  position: relative;
+  top: 69px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+/*----Our Mission Start----*/
+#mission {
+  height: 700px;
+  width: 1200px;
+  background-image:url("../images/mission.jpg");
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#mis-title {
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+}
+
+#mis-title h2{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#mis-title h4{
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+/*----Our Mission End----*/
+
+
+/*----Featured Tea Start----*/
+.ftea {
+  width: 1000px;
+  display: flex;
+  position: relative;
+  top: 80px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+#ftea-title {
+  text-align: center;
+}
+
+#ftea-pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pic {
+  text-align: center;
+  padding: 15px;
+}
+
+.pic h4 {
+  padding-top: 10px;
+  margin:0;
+}
+/*----Featured Tea End----*/
+
+
+/*----Locations Start----*/
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image:url("../images/locations.jpg");
+  padding-top: 70px;
+  position: relative;
+  top: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.locations h2 {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+.blocks {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.loc-block {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px;
+  padding: 0px;
+  text-align: center;
+  opacity: 1;
+}
+
+.loc-block p {
+  padding: 10px;
+}
+
+.loc-block h3 {
+  padding-bottom: 10px;
+}
+/*----Locations End----*/
+
+
+/*----Footer Start----*/
+footer {
+  position: relative;
+  top: 100px;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+  padding: 15px;
+}
+
+.copyright {
+  padding-left: 20px;
+}
+/*----Footer End----*/
